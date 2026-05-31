@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-oip)3@tx5fd$9owr0mqu$_12bnn8r@59%h+-gdb47kh(dz53td
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "ahoum-backend-kzp4.onrender.com",
+]
 
 
 # Application definition
